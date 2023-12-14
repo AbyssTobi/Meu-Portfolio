@@ -1,6 +1,7 @@
 .Content {
     display: flex;
     flex-grow: 1;
-    background-color: #ddd;
+    background-color: #000000;
     padding: 30px;
+    color: white;
 }

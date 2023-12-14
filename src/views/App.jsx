@@ -7,8 +7,8 @@ import { BrowserRouter as Route } from "react-router-dom"
 const App = props => (
     <div className="App">
         <Route>
-            <Menu />
-            <Content />
+            <Menu className="Menu" />
+            <Content className="Content" />
         </Route>
     </div>
 )

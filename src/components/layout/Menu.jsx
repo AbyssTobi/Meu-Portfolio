@@ -8,19 +8,11 @@ const Menu = props => (
             <ul>
                 <li>
                     <Link to="/">Início</Link>
-                </li>
-
-                <li>
-                <Link to="/about">Sobre mim</Link>
-                </li>
-
-                <li>
+                    <Link to="/about">Sobre mim</Link>
+                    <Link to="/skills">Habilidades</Link>
                     <Link to="/projects">Projetos </Link>
                 </li>
-                
-                <li>
-                <Link to="/skills">Habilidades</Link>
-                </li>
+
             </ul>
 
         </nav>
